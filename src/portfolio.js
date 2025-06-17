@@ -125,13 +125,13 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide the entire section
+  display: true, // Set false to hide the entire Education section
   schools: [
     {
-      display: true, // Set false to hide this school entry
+      display: true, // Set false to hide this individual school entry
       schoolName: "Georgia Institute of Technology",
-      logo: require("./assets/images/Georgia-Tech-Logo 1.png"),
-      subHeader: "Bachelor of Engineering - BE in Industrial Engineering",
+      logo: require("./assets/images/georgia_institute_of_technology_logo.png"),
+      subHeader: "Bachelor of Engineering - Industrial Engineering",
       duration: "August 2017 - December 2019",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
@@ -140,7 +140,7 @@ const educationInfo = {
       ]
     },
     {
-      display: false, // Set false to hide this school entry
+      display: false, // Set false to hide this individual school entry
       schoolName: "Georgia Tech",
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Bachelor of Engineering in Industrial Engineering",
@@ -181,10 +181,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      role: "FPA&A Business Analyst",
+      company: "Costa Farms",
+      companylogo: require("./assets/images/costa_farms_logo.png"),
+      date: "Feb 2022 – Nov 2022",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -192,17 +192,17 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      role: "Sales Engineer",
+      company: "AmeriKooler",
+      companylogo: require("./assets/images/AmeriKoolerLogo.png"),
+      date: "Sep 2021 – Feb 2022",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      role: "Industrial Engineer",
+      company: "United Steel Storage (USSI)",
+      companylogo: require("./assets/images/ussipartners_logo.png"),
+      date: "Feb 2021 – May 2021",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
@@ -390,7 +390,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
