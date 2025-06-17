@@ -130,7 +130,7 @@ const educationInfo = {
     {
       display: true, // Set false to hide this individual school entry
       schoolName: "Georgia Institute of Technology",
-      logo: require("./assets/images/georgia_institute_of_technology_logo.png"),
+      logo: require("./assets/images/georgia_institute_of_technology_logo.jpeg"),
       subHeader: "Bachelor of Engineering - Industrial Engineering",
       duration: "August 2017 - December 2019",
       desc: "Participated in the research of XXX and published 3 papers.",
@@ -142,7 +142,7 @@ const educationInfo = {
     {
       display: false, // Set false to hide this individual school entry
       schoolName: "Georgia Tech",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/georgia_institute_of_technology_logo.jpeg"),
       subHeader: "Bachelor of Engineering in Industrial Engineering",
       duration: "September 2013 - April 2017",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
