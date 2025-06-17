@@ -33,17 +33,41 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/chris-coterillo/",
-  gmail: "coterillochris@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: true, // Set false to hide the entire Social Media section
+
+  links: {
+    github: {
+      url: "https://github.com/saadpasta",
+      display: false
+    },
+    linkedin: {
+      url: "https://www.linkedin.com/in/chris-coterillo/",
+      display: true
+    },
+    gmail: {
+      url: "coterillochris@gmail.com",
+      display: true
+    },
+    gitlab: {
+      url: "https://gitlab.com/saadpasta",
+      display: false
+    },
+    facebook: {
+      url: "https://www.facebook.com/saad.pasta7",
+      display: false
+    },
+    medium: {
+      url: "https://medium.com/@saadpasta",
+      display: false
+    },
+    stackoverflow: {
+      url: "https://stackoverflow.com/users/10422806/saad-pasta",
+      display: false
+    }
+    // Add more platforms like Instagram, Twitter, Kaggle here similarly
+  }
 };
+
 
 // Skills Section
 
@@ -307,7 +331,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
