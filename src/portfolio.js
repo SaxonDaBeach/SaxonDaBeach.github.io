@@ -49,7 +49,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Energetic, Ambitious, and Hardworking Industrial Engineer Ready to Excel!",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -122,30 +122,37 @@ https://fontawesome.com/icons?d=gallery */
 
 // Education Section
 
+// Education Section
+
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide the entire section
   schools: [
     {
+      display: true, // Set false to hide this school entry
       schoolName: "Georgia Institute of Technology",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/Georgia-Tech-Logo 1.png"),
       subHeader: "Bachelor of Engineering - BE in Industrial Engineering",
       duration: "August 2017 - December 2019",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "xx",
+        "xx"
       ]
     },
     {
+      display: false, // Set false to hide this school entry
       schoolName: "Georgia Tech",
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Bachelor of Engineering in Industrial Engineering",
       duration: "September 2013 - April 2017",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
     }
   ]
 };
+
 
 // Your top 3 proficient stacks/tech experience
 
@@ -324,7 +331,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: flase // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +350,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +363,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,15 +379,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "https://www.linkedin.com/in/chris-coterillo/",
+  email_address: "coterillochris@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
