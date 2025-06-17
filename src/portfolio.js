@@ -183,7 +183,7 @@ const workExperiences = {
     {
       role: "FPA&A Business Analyst",
       company: "Costa Farms",
-      companylogo: require("./assets/images/costa_farms_logo.png"),
+      companylogo: require("./assets/images/costa_farms_logo.jpeg"),
       date: "Feb 2022 – Nov 2022",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -194,14 +194,14 @@ const workExperiences = {
     {
       role: "Sales Engineer",
       company: "AmeriKooler",
-      companylogo: require("./assets/images/AmeriKoolerLogo.png"),
+      companylogo: require("./assets/images/AmeriKoolerLogo.jpeg"),
       date: "Sep 2021 – Feb 2022",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       role: "Industrial Engineer",
       company: "United Steel Storage (USSI)",
-      companylogo: require("./assets/images/ussipartners_logo.png"),
+      companylogo: require("./assets/images/ussipartners_logo.jpeg"),
       date: "Feb 2021 – May 2021",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
