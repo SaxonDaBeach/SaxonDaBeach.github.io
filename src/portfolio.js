@@ -73,7 +73,7 @@ const socialMediaLinks = {
 
 const aboutSection = {
   title: "Energetic, Ambitious, and Hardworking Industrial Engineer Ready to Excel",
-  subTitle: "Welcome LinkedIn world,",
+  subTitle: "Welcome world,",
   description: [
     emoji(
       "I'm Chris Coterillo, a dynamic and results-driven industrial engineer with a passion for problem-solving and innovation. With a solid background in industrial and systems engineering from Georgia Institute of Technology, I thrive in fast-paced environments where I can apply my analytical skills to drive tangible results."
@@ -87,8 +87,12 @@ const aboutSection = {
     emoji(
       "Outside of my professional pursuits, I'm an avid traveler, always seeking new adventures and experiences that broaden my horizons. I'm also deeply passionate about clean eating and living a healthy lifestyle, focusing on unprocessed foods that fuel both the body and mind."
     )
-  ]
+  ],
+  display: true // Set to false to hide this section
 };
+
+export default aboutSection;
+
 
 
 /* Make Sure to include correct Font Awesome Classname to view your icon
