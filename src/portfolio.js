@@ -71,22 +71,35 @@ const socialMediaLinks = {
 
 // Skills Section
 
-const skillsSection = {
-  title: "What I do",
-  subTitle: "Energetic, Ambitious, and Hardworking Industrial Engineer Ready to Excel!",
-  skills: [
+const aboutSection = {
+  title: "Energetic, Ambitious, and Hardworking Industrial Engineer Ready to Excel",
+  subTitle: "Welcome LinkedIn world,",
+  description: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "I'm Chris Coterillo, a dynamic and results-driven industrial engineer with a passion for problem-solving and innovation. With a solid background in industrial and systems engineering from Georgia Institute of Technology, I thrive in fast-paced environments where I can apply my analytical skills to drive tangible results."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "As a dedicated team player, I believe in the power of collaboration and am always eager to contribute to collective success. My experience spans roles where I've successfully navigated diverse challenges, from optimizing supply chain flows, managing data pipelines, and to leading technical sales initiatives."
+    ),
+    emoji(
+      "With a relentless drive for excellence and a commitment to continuous improvement, I'm excited to leverage my skills and expertise to tackle new challenges and make meaningful contributions to your team. Let's connect and explore how we can work together to achieve extraordinary results!"
+    ),
+    emoji(
+      "Outside of my professional pursuits, I'm an avid traveler, always seeking new adventures and experiences that broaden my horizons. I'm also deeply passionate about clean eating and living a healthy lifestyle, focusing on unprocessed foods that fuel both the body and mind."
     )
+  ]
+};
+
+
+/* Make Sure to include correct Font Awesome Classname to view your icon
+   https://fontawesome.com/icons?d=gallery */
+
+const skillsSection = {
+  skills: [
+    "⚡ Develop highly interactive front-end / user interfaces for web and mobile applications",
+    "⚡ Build Progressive Web Applications (PWA) using modern stacks",
+    "⚡ Integrate third-party services such as Firebase, AWS, and Digital Ocean"
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
     {
       skillName: "html-5",
@@ -146,8 +159,6 @@ https://fontawesome.com/icons?d=gallery */
 
 // Education Section
 
-// Education Section
-
 const educationInfo = {
   display: true, // Set false to hide the entire Education section
   schools: [
@@ -202,14 +213,25 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Contract Analyst & Sabbatical",
+      company: "Self - Employeed",
+      companylogo: require("./assets/images/microsoft-office-excel.svg"),
+      date: "Nov 2022 – Present",
+      desc: "Brief job description or summary goes here.",
+      descBullets: [
+        "Bullet point 1 about your responsibilities or achievements",
+        "Bullet point 2 about your responsibilities or achievements"
+      ]
+    },
     {
       role: "FPA&A Business Analyst",
       company: "Costa Farms",
       companylogo: require("./assets/images/costa_farms_logo.jpeg"),
       date: "Feb 2022 – Nov 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Oversaw the process of the R&D pipeline’s connection to portfolio performance and analyzed KPIs in relation to newly launched or promoted products, Assisted the Product Planning process by optimizing reporting dashboards and working closely with the Product Management and R&D departments, Developed new Key Performance Indicators (KPIs), conducted data analysis and forecasts to optimize the product portfolio, and interpreted the impact of the R&D pipeline, Aligned product offerings to meet company revenue targets while operating cross-functionally in sync with the Demand and Supply teams, Managed MBR and IR processes for Product team, aligning revenue goals with finance objectives",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -220,17 +242,18 @@ const workExperiences = {
       company: "AmeriKooler",
       companylogo: require("./assets/images/AmeriKoolerLogo.jpeg"),
       date: "Sep 2021 – Feb 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Led efforts to cater to a new wholesale market by customizing and modifying product line to fit new market needs, Market Research and Analysis: Conducted ongoing research and analysis to effectively target the custom coolers market"
     },
     {
       role: "Industrial Engineer",
       company: "United Steel Storage (USSI)",
       companylogo: require("./assets/images/ussipartners_logo.jpeg"),
       date: "Feb 2021 – May 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Customer engagement to design both new warehouses and suggest operational improvements for existing warehouses, Responsible for all aspects of warehouse design projects including operational assessments of existing client operations, recommendations to improve current operations, and new facility design, Provided the most cost-effective solution to meet the client’s strategic business requirements"
     }
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -403,7 +426,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "https://www.linkedin.com/in/chris-coterillo/",
+  website: "https://www.linkedin.com/in/chris-coterillo/",
   email_address: "coterillochris@gmail.com"
 };
 
