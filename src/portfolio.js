@@ -431,9 +431,10 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "https://www.linkedin.com/in/chris-coterillo/",
+    linkedin: "https://www.linkedin.com/in/chris-coterillo/",
   email_address: "coterillochris@gmail.com"
 };
+
 
 // Twitter Section
 
