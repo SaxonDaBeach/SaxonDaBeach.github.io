@@ -426,11 +426,12 @@ const resumeSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
+
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  website: "https://www.linkedin.com/in/chris-coterillo/",
+  number: "https://www.linkedin.com/in/chris-coterillo/",
   email_address: "coterillochris@gmail.com"
 };
 
