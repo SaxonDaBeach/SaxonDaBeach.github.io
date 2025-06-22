@@ -19,16 +19,42 @@ const illustration = {
   animated: true // Set to false to use static SVG
 };
 
+// oirginal code(*)
+
+// const greeting = {
+//   username: "Chris Coterillo",
+//   title: "Hi all, I'm Chris",
+//   subTitle: emoji(
+//     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+//   ),
+//   resumeLink:
+//     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+//   displayGreeting: true // Set false to hide this section, defaults to true
+// };
+
+// Temp Code (*)
 const greeting = {
-  username: "Chris Coterillo",
-  title: "Hi all, I'm Chris",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  title: "Data‑Driven Industrial Engineer • Data Analyst • Operations Professional 📊",
+  subTitle: "Hello LinkedIn world!",
+  description: [
+    emoji(
+      "I'm Chris Coterillo—a dynamic, results‑driven industrial engineer turned data analyst with deep expertise in Python, SQL, Power BI, and Excel. I thrive on transforming complex data into actionable insights that drive strategic decision‑making."
+    ),
+    emoji(
+      "With a foundation from Georgia Tech and hands‑on experience across contract analytics, workforce planning, and AI‑driven dashboards, I've supported business growth through CRM optimization, pipeline management, and performance reporting."
+    ),
+    emoji(
+      "I’ve collaborated with global teams to streamline processes, forecast demand, and deliver executive‑ready reporting that impacts bottom‑line results. I’m passionate about using tech to solve real‑world challenges and committed to continuous learning."
+    ),
+    emoji(
+      "Let’s connect! I welcome opportunities to leverage data and operational insights to create value—drop a message on LinkedIn: https://www.linkedin.com/in/chris-coterillo/"
+    )
+  ],
+  display: true
 };
+ //end temp code and edit section
+
+
 
 // Social Media Links
 
@@ -447,7 +473,7 @@ const isHireable = true; // Set false if you are not looking for a job. Also isH
 
 export {
   illustration,
-  greeting,
+  greeting, 
   socialMediaLinks,
   splashScreen,
   skillsSection,
