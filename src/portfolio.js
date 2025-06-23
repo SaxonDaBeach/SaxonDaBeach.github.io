@@ -19,6 +19,9 @@ const illustration = {
   animated: true // Set to false to use static SVG
 };
 
+
+ //start  temp code and edit section 
+ 
 // oirginal code(*)
 
 // const greeting = {
@@ -34,24 +37,16 @@ const illustration = {
 
 // Temp Code (*)
 const greeting = {
-  title: "Data‑Driven Industrial Engineer • Data Analyst • Operations Professional 📊",
-  subTitle: "Hello LinkedIn world!",
-  description: [
-    emoji(
-      "I'm Chris Coterillo—a dynamic, results‑driven industrial engineer turned data analyst with deep expertise in Python, SQL, Power BI, and Excel. I thrive on transforming complex data into actionable insights that drive strategic decision‑making."
-    ),
-    emoji(
-      "With a foundation from Georgia Tech and hands‑on experience across contract analytics, workforce planning, and AI‑driven dashboards, I've supported business growth through CRM optimization, pipeline management, and performance reporting."
-    ),
-    emoji(
-      "I’ve collaborated with global teams to streamline processes, forecast demand, and deliver executive‑ready reporting that impacts bottom‑line results. I’m passionate about using tech to solve real‑world challenges and committed to continuous learning."
-    ),
-    emoji(
-      "Let’s connect! I welcome opportunities to leverage data and operational insights to create value—drop a message on LinkedIn: https://www.linkedin.com/in/chris-coterillo/"
-    )
-  ],
-  display: true
+  username: "Chris Coterillo",
+  title: "Hi all, I'm Chris",
+  subTitle: emoji(
+    "An Industrial Engineer turned Data Analyst with a knack for sales 📊 skilled in Python, SQL, Power BI, and Excel — helping businesses grow through data, dashboards, and smart decisions."
+  ),
+  resumeLink:
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  displayGreeting: true // Set false to hide this section, defaults to true
 };
+
  //end temp code and edit section
 
 
@@ -457,9 +452,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-    linkedin: "https://www.linkedin.com/in/chris-coterillo/",
-  email_address: "coterillochris@gmail.com"
+  // The following fields map directly to your contact icons/buttons:
+ // github: "https://github.com/chris-coterillo",
+  linkedin: "https://www.linkedin.com/in/chris-coterillo/",
+  email_address: "coterillochris@gmail.com",
+  // You can also add Twitter, StackOverflow, etc., in the same style
+
+  display: true // Set false to hide this section, defaults to true
 };
+
 
 
 // Twitter Section
