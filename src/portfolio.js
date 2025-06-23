@@ -453,12 +453,14 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   // The following fields map directly to your contact icons/buttons:
- // github: "https://github.com/chris-coterillo",
+  github: "https://github.com/chris-coterillo",
   linkedin: "https://www.linkedin.com/in/chris-coterillo/",
   email_address: "coterillochris@gmail.com",
   // You can also add Twitter, StackOverflow, etc., in the same style
 
-  display: true // Set false to hide this section, defaults to true
+  location: "Miami, FL (Remote Ready)", // shows your area and remote availability
+  openForOpportunities: true, // controls the "Open for opportunities" label
+  display: true // shows or hides the entire section
 };
 
 
