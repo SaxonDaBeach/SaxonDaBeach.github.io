@@ -53,41 +53,58 @@ const greeting = {
 
 // Social Media Links
 
+//new one with my info
 const socialMediaLinks = {
-  display: true, // Set false to hide the entire Social Media section
-
-  links: {
-    github: {
-      url: "https://github.com/saadpasta",
-      display: false
-    },
-    linkedin: {
-      url: "https://www.linkedin.com/in/chris-coterillo/",
-      display: true
-    },
-    gmail: {
-      url: "coterillochris@gmail.com",
-      display: true
-    },
-    gitlab: {
-      url: "https://gitlab.com/saadpasta",
-      display: false
-    },
-    facebook: {
-      url: "https://www.facebook.com/saad.pasta7",
-      display: false
-    },
-    medium: {
-      url: "https://medium.com/@saadpasta",
-      display: false
-    },
-    stackoverflow: {
-      url: "https://stackoverflow.com/users/10422806/saad-pasta",
-      display: false
-    }
-    // Add more platforms like Instagram, Twitter, Kaggle here similarly
-  }
+  github: "https://github.com/SaxonDaBeach",
+  linkedin: "https://www.linkedin.com/in/chris-coterillo/",
+  gmail: "coterillochris@gmail.com",
+  gitlab: "",
+  facebook: "",
+  medium: "",
+  stackoverflow: "",
+  // Instagram, Twitter and Kaggle are also supported in the links!
+  // To customize icons and social links, tweak src/components/SocialMedia
+  display: true // Set true to display this section, defaults to false
 };
+
+
+
+//old one
+// const socialMediaLinks = {
+//   display: true, // Set false to hide the entire Social Media section
+
+//   links: {
+//     github: {
+//       url: "https://github.com/saadpasta",
+//       display: false
+//     },
+//     linkedin: {
+//       url: "https://www.linkedin.com/in/chris-coterillo/",
+//       display: true
+//     },
+//     gmail: {
+//       url: "coterillochris@gmail.com",
+//       display: true
+//     },
+//     gitlab: {
+//       url: "https://gitlab.com/saadpasta",
+//       display: false
+//     },
+//     facebook: {
+//       url: "https://www.facebook.com/saad.pasta7",
+//       display: false
+//     },
+//     medium: {
+//       url: "https://medium.com/@saadpasta",
+//       display: false
+//     },
+//     stackoverflow: {
+//       url: "https://stackoverflow.com/users/10422806/saad-pasta",
+//       display: false
+//     }
+//     // Add more platforms like Instagram, Twitter, Kaggle here similarly
+//   }
+// };
 
 
 // Skills Section
@@ -207,7 +224,7 @@ const educationInfo = {
       duration: "September 2013 - April 2017",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "x"
       ]
     }
   ]
@@ -243,12 +260,12 @@ const workExperiences = {
     {
       role: "Contract Analyst & Sabbatical",
       company: "Self - Employeed",
-      companylogo: require("./assets/images/microsoft-office-excel.svg"),
+      companylogo: require("./assets/images/microsoft-excel-2013.webp"),
       date: "Nov 2022 – Present",
       desc: "Brief job description or summary goes here.",
       descBullets: [
-        "Bullet point 1 about your responsibilities or achievements",
-        "Bullet point 2 about your responsibilities or achievements"
+        "xx",
+        "xx"
       ]
     },
     {
@@ -258,8 +275,7 @@ const workExperiences = {
       date: "Feb 2022 – Nov 2022",
       desc: "Oversaw the process of the R&D pipeline’s connection to portfolio performance and analyzed KPIs in relation to newly launched or promoted products, Assisted the Product Planning process by optimizing reporting dashboards and working closely with the Product Management and R&D departments, Developed new Key Performance Indicators (KPIs), conducted data analysis and forecasts to optimize the product portfolio, and interpreted the impact of the R&D pipeline, Aligned product offerings to meet company revenue targets while operating cross-functionally in sync with the Demand and Supply teams, Managed MBR and IR processes for Product team, aligning revenue goals with finance objectives",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "xx"
       ]
     },
     {
@@ -318,7 +334,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -447,7 +463,7 @@ const resumeSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-
+//Original, but with mine
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
@@ -462,6 +478,33 @@ const contactInfo = {
   openForOpportunities: true, // controls the "Open for opportunities" label
   display: true // shows or hides the entire section
 };
+
+
+// Olc
+// const contactInfo = {
+//   contactSection: {
+//     title: emoji("Reach Out to me! 📬"),
+//     subtitle: "Discuss a project or just want to say hi? My inbox is open for all.",
+//   },
+//   addressSection: {
+//     title: "Location",
+//     subtitle: "Miami, FL (Remote Ready)"
+//   },
+//   phoneSection: {
+//     title: "Open to opportunities",
+//     subtitle: "Yes"
+//   },
+//   email_address: "coterillochris@gmail.com",
+//   github: "https://github.com/SaxonDaBeach",
+//   linkedin: "https://www.linkedin.com/in/chris-coterillo/",
+//   // Optional extras
+//   facebook: "",
+//   instagram: "",
+//   twitter: "",
+//   gitlab: "",
+//   stackoverflow: "",
+//   display: true
+// };
 
 
 
