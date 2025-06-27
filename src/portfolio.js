@@ -136,68 +136,99 @@ export default aboutSection;
 /* Make Sure to include correct Font Awesome Classname to view your icon
    https://fontawesome.com/icons?d=gallery */
 
-const skillsSection = {
+   //original code
+   const skillsSection = {
   skills: [
-    "⚡ Develop highly interactive front-end / user interfaces for web and mobile applications",
-    "⚡ Build Progressive Web Applications (PWA) using modern stacks",
-    "⚡ Integrate third-party services such as Firebase, AWS, and Digital Ocean"
+    "⚡ Skilled in Excel for advanced analytics and automation",
+    "⚡ Built dashboards and models using Power BI",
+    "⚡ Used Python for data processing and automation",
+    "⚡ Experienced in writing SQL queries for data extraction and analysis"
   ],
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Excel",
+      fontAwesomeClassname: "fas fa-file-excel"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Power BI",
+      fontAwesomeClassname: "fas fa-chart-bar" // Best available icon
+    },
+    {
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
+
+
+// const skillsSection = {
+//   skills: [
+//     "⚡ Develop highly interactive front-end / user interfaces for web and mobile applications",
+//     "⚡ Build Progressive Web Applications (PWA) using modern stacks",
+//     "⚡ Integrate third-party services such as Firebase, AWS, and Digital Ocean"
+//   ],
+//   softwareSkills: [
+//     {
+//       skillName: "html-5",
+//       fontAwesomeClassname: "fab fa-html5"
+//     },
+//     {
+//       skillName: "css3",
+//       fontAwesomeClassname: "fab fa-css3-alt"
+//     },
+//     {
+//       skillName: "sass",
+//       fontAwesomeClassname: "fab fa-sass"
+//     },
+//     {
+//       skillName: "JavaScript",
+//       fontAwesomeClassname: "fab fa-js"
+//     },
+//     {
+//       skillName: "reactjs",
+//       fontAwesomeClassname: "fab fa-react"
+//     },
+//     {
+//       skillName: "nodejs",
+//       fontAwesomeClassname: "fab fa-node"
+//     },
+//     {
+//       skillName: "swift",
+//       fontAwesomeClassname: "fab fa-swift"
+//     },
+//     {
+//       skillName: "npm",
+//       fontAwesomeClassname: "fab fa-npm"
+//     },
+//     {
+//       skillName: "sql-database",
+//       fontAwesomeClassname: "fas fa-database"
+//     },
+//     {
+//       skillName: "aws",
+//       fontAwesomeClassname: "fab fa-aws"
+//     },
+//     {
+//       skillName: "firebase",
+//       fontAwesomeClassname: "fas fa-fire"
+//     },
+//     {
+//       skillName: "python",
+//       fontAwesomeClassname: "fab fa-python"
+//     },
+//     {
+//       skillName: "docker",
+//       fontAwesomeClassname: "fab fa-docker"
+//     }
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 // Education Section
 
