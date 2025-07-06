@@ -495,47 +495,47 @@ const resumeSection = {
 };
 
 //Original, but with mine
-const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  // The following fields map directly to your contact icons/buttons:
-  github: "https://github.com/chris-coterillo",
-  linkedin: "https://www.linkedin.com/in/chris-coterillo/",
-  email_address: "coterillochris@gmail.com",
-  // You can also add Twitter, StackOverflow, etc., in the same style
+// const contactInfo = {
+//   title: emoji("Contact Me ☎️"),
+//   subtitle:
+//     "Discuss a project or just want to say hi? My Inbox is open for all.",
+//   // The following fields map directly to your contact icons/buttons:
+//   github: "https://github.com/chris-coterillo",
+//   linkedin: "https://www.linkedin.com/in/chris-coterillo/",
+//   email_address: "coterillochris@gmail.com",
+//   // You can also add Twitter, StackOverflow, etc., in the same style
 
-  location: "Miami, FL (Remote Ready)", // shows your area and remote availability
-  openForOpportunities: true, // controls the "Open for opportunities" label
-  display: true // shows or hides the entire section
-};
+//   location: "Miami, FL (Remote Ready)", // shows your area and remote availability
+//   openForOpportunities: true, // controls the "Open for opportunities" label
+//   display: true // shows or hides the entire section
+// };
 
 
 // Olc
-// const contactInfo = {
-//   contactSection: {
-//     title: emoji("Reach Out to me! 📬"),
-//     subtitle: "Discuss a project or just want to say hi? My inbox is open for all.",
-//   },
-//   addressSection: {
-//     title: "Location",
-//     subtitle: "Miami, FL (Remote Ready)"
-//   },
-//   phoneSection: {
-//     title: "Open to opportunities",
-//     subtitle: "Yes"
-//   },
-//   email_address: "coterillochris@gmail.com",
-//   github: "https://github.com/SaxonDaBeach",
-//   linkedin: "https://www.linkedin.com/in/chris-coterillo/",
-//   // Optional extras
-//   facebook: "",
-//   instagram: "",
-//   twitter: "",
-//   gitlab: "",
-//   stackoverflow: "",
-//   display: true
-// };
+const contactInfo = {
+  contactSection: {
+    title: emoji("Reach Out to me! 📬"),
+    subtitle: "Discuss a project or just want to say hi? My inbox is open for all.",
+  },
+  addressSection: {
+    title: "Location",
+    subtitle: "Miami, FL (Remote Ready)"
+  },
+  phoneSection: {
+    title: "Open to opportunities",
+    subtitle: "Yes"
+  },
+  email_address: "coterillochris@gmail.com",
+  github: "https://github.com/SaxonDaBeach",
+  linkedin: "https://www.linkedin.com/in/chris-coterillo/",
+  // Optional extras
+  facebook: "",
+  instagram: "",
+  twitter: "",
+  gitlab: "",
+  stackoverflow: "",
+  display: true
+};
 
 
 
