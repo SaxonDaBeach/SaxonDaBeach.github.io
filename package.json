@@ -2,7 +2,7 @@
  "name": "your-project-name",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SaxonDaBeach.github.io/SaxonDaBeach.github.io",
+  "homepage": "https://chriscoterillo.com/",
   "dependencies": {
     "colorthief": "^2.3.0",
     "enzyme": "^3.11.0",
