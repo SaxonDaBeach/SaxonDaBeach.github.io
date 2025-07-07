@@ -1,8 +1,6 @@
-// chat gpt update
 import React from "react";
 import "./GithubProfileCard.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import myProfileImage from "../../assets/images/HeadshotChrisCoterillo.jpeg";
 import { contactInfo } from "../../portfolio";
 import emoji from "react-easy-emoji";
 import { Fade } from "react-reveal";
@@ -30,7 +28,7 @@ export default function GithubProfileCard() {
           </div>
           <div className="image-content-profile">
             <img
-              src={myProfileImage}
+              src="/HeadshotChrisCoterillo.jpeg"
               alt="Chris Coterillo"
               className="profile-image"
             />
@@ -40,6 +38,7 @@ export default function GithubProfileCard() {
     </Fade>
   );
 }
+
 
 
 
