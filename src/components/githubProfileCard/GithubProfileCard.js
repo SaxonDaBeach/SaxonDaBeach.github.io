@@ -40,6 +40,48 @@ export default function GithubProfileCard() {
 }
 
 
+// import React from "react";
+// import "./GithubProfileCard.scss";
+// import SocialMedia from "../../components/socialMedia/SocialMedia";
+// import { contactInfo } from "../../portfolio";
+// import emoji from "react-easy-emoji";
+// import { Fade } from "react-reveal";
+
+// export default function GithubProfileCard() {
+//   return (
+//     <Fade bottom duration={1000} distance="20px">
+//       <div className="main" id="contact">
+//         <h1 className="prof-title">Reach Out to me!</h1>
+//         <div className="row">
+//           <div className="main-content-profile">
+//             <div className="blog-header">
+//               <p className="subTitle blog-subtitle">{contactInfo.subtitle}</p>
+//             </div>
+//             <h2 className="bio-text">
+//               {emoji("Industrial Engineer | Data Analyst | SQL • Python • Power BI")}
+//             </h2>
+//             <div className="location-div">
+//               <span className="desc-prof">📍 Miami, FL (Remote Ready)</span>
+//             </div>
+//             <div className="opp-div">
+//               <span className="desc-prof">Open for opportunities: Yes</span>
+//             </div>
+//             <SocialMedia />
+//           </div>
+//           <div className="image-content-profile">
+//            <img
+//   src={`${process.env.PUBLIC_URL}/HeadshotChrisCoterillo.jpeg`}
+//   alt="Chris Coterillo"
+//   className="profile-image"
+// />
+//           </div>
+//         </div>
+//       </div>
+//     </Fade>
+//   );
+// }
+
+
 
 
 
