@@ -52,7 +52,24 @@ export default function Contact() {
               <SocialMedia />
             </div>
           </div>
-          <div className="contact-image-div">
+          {<div className="contact-image-div">
+  {contactInfo.profile_image && (
+    <img
+      src={contactInfo.profile_image}
+      alt="Chris Coterillo"
+      className="contact-profile-image"
+    />
+  )}
+  {illustration.animated ? (
+    <DisplayLottie animationData={email} />
+  ) : (
+    <img
+      alt="Man working"
+      src={require("../../assets/images/contactMailDark.svg")}
+    />
+  )}
+</div>
+/* <div className="contact-image-div">
             {illustration.animated ? (
               <DisplayLottie animationData={email} />
             ) : (
@@ -61,7 +78,7 @@ export default function Contact() {
                 src={require("../../assets/images/contactMailDark.svg")}
               ></img>
             )}
-          </div>
+          </div> */}
         </div>
       </div>
     </Fade>
